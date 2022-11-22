@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/luxluxlol/k8s-test
+       i repoURL: https://github.com/luxluxlol/k8s-test
         revision: main
         directories:
           - path: argocd/apps/cluster-wide-apps/*

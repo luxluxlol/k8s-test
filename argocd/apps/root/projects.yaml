@@ -16,12 +16,6 @@ spec:
       server: https://kubernetes.default.svc
     - namespace: 'metallb-system'
       server: https://kubernetes.default.svc
-    - namespace: 'synology-csi'
-      server: https://kubernetes.default.svc
-    - namespace: 'snapscheduler'
-      server: https://kubernetes.default.svc
-    - namespace: 'monitoring'
-      server: https://kubernetes.default.svc
   clusterResourceWhitelist:
     - group: '*'
       kind: '*'
